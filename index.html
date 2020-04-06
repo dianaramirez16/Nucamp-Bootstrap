@@ -5,10 +5,20 @@
       <!-- Required meta tags always come first -->
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+      <meta http-equiv="x-ua-compatible" content="ie-edge" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-  
+        <style>
+            .container {
+                border: solid blue;
+            }
+            .row {
+                border: solid yellow;
+            }
+            .row div {
+                border: solid green;
+            }
+        </style>
       <title>NuCamp: A Better Way To Camp</title>
 </head>
 
@@ -37,6 +47,29 @@
         <h2>Our Community Partners</h2>
         <h3>Bootstrap Outfitters</h3>
         <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+    </div>
+
+    <h1>~Grid Example~</h1>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+            <div class="col">10</div>
+            <div class="col">11</div>
+            <div class="col">12</div>
+        </div>
+        <div class="row">
+            
+            <div class="col">1</div>
+        </div>
     </div>
 
     <footer>
