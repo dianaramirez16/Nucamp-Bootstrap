@@ -1,0 +1,26 @@
+{
+  "name": "nucamp-site",
+  "version": "1.0.0",
+  "description": "this is a website or the fictional campsites review size nucamp",
+  "main": "index.js",
+  "scripts": {
+    "lite" : "lite-server",
+    "start" : "npm run lite",
+    "preinstall": "npx npm-force-resolutions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "minimist": "1.2.3",
+    "mkdir": "0.5.3"
+  },
+  "author": "Diana Ramirez",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
