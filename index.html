@@ -8,10 +8,11 @@
       <meta http-equiv="x-ua-compatible" content="ie-edge" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
       <!-- Additional CSS must be placed after Bootstrap CSS -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
       <link rel="stylesheet" href="css/styles.css" />
+      
       <title>NuCamp: A Better Way To Camp</title>
 </head>
 
@@ -29,7 +30,7 @@
     </header>
 
     <div class="container">
-        <div class="row row-content  align-items-center">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discover & Review</h2>
             </div>
@@ -45,9 +46,10 @@
             <div class="col-sm-4 col-md-3">
                 <h2 class="text-sm-right">Featured Campsites</h2>
             </div>
-            <div class="col">
+            <div class="media col d-flex justify-content-between">
                 <h3>React Lake Campground</h3>
-                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <p >Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <img src="img/react-lake-thumb.jpg" class="img-fluid" />
             </div>
         </div>
     </div>
@@ -63,6 +65,11 @@
             </div>
         </div>
     </div>
+
+<div>
+    <label class="col">date</label>
+    <input type="date" name="date" class="date" placeholder="text">
+</div>
 
     <footer>
         <div class="container">
