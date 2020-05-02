@@ -49,3 +49,13 @@ footer {
 .carousel {
     border: solid #5637DD;
 }
+
+.card-header {
+    color:red;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

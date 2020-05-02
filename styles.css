@@ -1,0 +1,208 @@
+html {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Width and height are needed for some elements to work properly */
+  body {
+    width: 100%;
+    height: 100%;
+    color: #555555;
+    background-color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .02em;
+    line-height: auto;
+    text-transform: none;
+    color: #222;
+
+    /* text-shadow: 2px 1px 3px #444444; */
+  }
+
+ header .background {
+      background: url("../images/death-valley-night.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      position: absolute;
+      margin: 0;
+      top: 0;
+      left: 0;
+      padding: 0;
+      border: 0;
+      animation: kenburns 90s infinite linear;
+    }
+
+  .hover-underline a {
+    text-decoration: none !important;
+    position: relative;
+  }
+
+  .hover-underline a::after {
+    content: "";
+    position: absolute;
+    top: calc(100%);
+    left: 50%;
+    right: 50%;
+  }
+
+  .hover-underline a:hover::after {
+    left: 0;
+    right: 0;
+    transition-property: left, right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    border-bottom: 0.125rem solid #fefefe; font-size: 60px;
+  }
+
+  /* Turning off decorations, e.g. underline for links */
+  .no-deco {
+    text-decoration: none !important;
+  }
+
+  .icon-pad-right {
+    padding-right: 0.3em;
+  }
+​
+
+  .footer-text {
+    font-size: 0.8rem;
+  }
+
+  /* .scaling-font {
+    font-size: calc(3rem + 1vw);
+    font-weight: 600;
+    line-height: calc(5rem + 1vw);
+  } */
+
+  .page-bottom {
+    position: fixed;
+    right: 15px;
+    bottom: 1vh;
+    left: 15px;
+    z-index: 1000;
+  }
+
+  .pad-top {
+    padding-top: 15px;
+  }
+
+  .center {
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Rotate is needed for IE, otherwise it is jumpy */
+  @keyframes kenburns {
+    50% {
+      transform: scale(1.3) rotate(0.04deg);
+    }
+  }
+​
+body {
+    font-family: josefin sans, sans-serif;
+    font-weight: ;
+    font-size: 17px;
+    letter-spacing: .02em;
+    line-height: 1.9em;
+    text-transform: none;
+    color: #222;
+}
+​
+​
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+
+}
+​
+header h1 {
+    font-size: 80px;
+    text-shadow: 4px 4px 4px rgb(128, 128, 128);
+}
+​
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 5px 0px 0px 0px;
+}
+​
+header h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+​
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+​
+​
+​
+.image-wrap {
+    width: 100%;
+    height: 50vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    }
+
+    .image-wrap img {
+    width: 100%;
+    animation: move 40s ease;
+    /* Add infinite to loop. */
+
+    -ms-animation: move 40s ease;
+    -webkit-animation: move 40s ease;
+    -0-animation: move 40s ease;
+    -moz-animation: move 40s ease;
+    position: absolute;
+    }
+
+    @-webkit-keyframes move {
+    0% {
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+    transform-origin: bottom left;
+    transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    /* IE 9 */
+
+    -webkit-transform: scale(1.0);
+    /* Safari and Chrome */
+
+    -o-transform: scale(1.0);
+    /* Opera */
+
+    -moz-transform: scale(1.0);
+    /* Firefox */
+    }
+    100% {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+
+    -webkit-transform: scale(1.2);
+    /* Safari and Chrome */
+
+    -o-transform: scale(1.2);
+    /* Opera */
+
+    -moz-transform: scale(1.2);
+    /* Firefox */
+    }
+    }
+
+    #testing {
+        font-weight: 100;
+    }
