@@ -8,41 +8,41 @@ h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: blue; }
 
 header h2 {
   color: #CEC8FF; }
 
-footer {
+header footer {
   background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0; }
 
-.jumbotron {
+header .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #5637dd, blue, #60106b);
   color: white;
   margin: 0; }
 
-.row-content {
+header .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px; }
 
-.tab-content {
+header .tab-content {
   border: 1px solid #DDD;
   border-top: none;
   padding: 10px; }
 
-.carousel-caption {
+header .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
-.carousel {
+header .carousel {
   border: solid #5637dd; }
 
-.card-header {
+header .card-header {
   color: red; }
 
-#carouselButton {
+header #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0; }

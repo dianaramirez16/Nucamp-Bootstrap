@@ -1,4 +1,4 @@
-$color-primary: #3046C5;
+$color-primary: blue;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -25,7 +25,6 @@ body {
     header {
         h2 {
         color: $color-pale;
-        }
     }
     
     footer {
@@ -69,3 +68,4 @@ body {
         right: 0;
         bottom: 0;
     }
+}
