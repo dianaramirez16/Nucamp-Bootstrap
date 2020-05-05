@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif; }
+
 .navbar {
   background-color: #901CAD; }
 
@@ -12,36 +13,37 @@ h2 {
 header h2 {
   color: #CEC8FF; }
 
-header footer {
+footer {
   background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
+  padding: 20px 0; 
+}
 
-header .jumbotron {
+.jumbotron {
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
   color: white;
   margin: 0; }
 
-header .row-content {
+.row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px; }
 
-header .tab-content {
+.tab-content {
   border: 1px solid #DDD;
   border-top: none;
   padding: 10px; }
 
-header .carousel-caption {
+.carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
-header .carousel {
+.carousel {
   border: solid #5637dd; }
 
-header .card-header {
+.card-header {
   color: red; }
 
-header #carouselButton {
+#carouselButton {
   position: absolute;
   right: 0;
   bottom: 0; }
